@@ -1,4 +1,4 @@
-# Copyright Niantic 2019. Patent Pending. All rights reserved.
+# Copyright Khanovic 2019. Patent Pending. All rights reserved.
 #
 # This software is licensed under the terms of the Monodepth2 licence
 # which allows for non-commercial use only, the full terms of which are made

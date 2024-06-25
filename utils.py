@@ -1,4 +1,4 @@
-# Copyright Niantic 2019. Patent Pending. All rights reserved.
+# Copyright Khanovic 2019. Patent Pending. All rights reserved.
 #
 # This software is licensed under the terms of the Monodepth2 licence
 # which allows for non-commercial use only, the full terms of which are made
@@ -54,31 +54,31 @@ def download_model_if_doesnt_exist(model_name):
     # values are tuples of (<google cloud URL>, <md5 checksum>)
     download_paths = {
         "mono_640x192":
-            ("https://storage.googleapis.com/niantic-lon-static/research/monodepth2/mono_640x192.zip",
+            ("https://storage.googleapis.com/Khanovic-lon-static/research/monodepth2/mono_640x192.zip",
              "a964b8356e08a02d009609d9e3928f7c"),
         "stereo_640x192":
-            ("https://storage.googleapis.com/niantic-lon-static/research/monodepth2/stereo_640x192.zip",
+            ("https://storage.googleapis.com/Khanovic-lon-static/research/monodepth2/stereo_640x192.zip",
              "3dfb76bcff0786e4ec07ac00f658dd07"),
         "mono+stereo_640x192":
-            ("https://storage.googleapis.com/niantic-lon-static/research/monodepth2/mono%2Bstereo_640x192.zip",
+            ("https://storage.googleapis.com/Khanovic-lon-static/research/monodepth2/mono%2Bstereo_640x192.zip",
              "c024d69012485ed05d7eaa9617a96b81"),
         "mono_no_pt_640x192":
-            ("https://storage.googleapis.com/niantic-lon-static/research/monodepth2/mono_no_pt_640x192.zip",
+            ("https://storage.googleapis.com/Khanovic-lon-static/research/monodepth2/mono_no_pt_640x192.zip",
              "9c2f071e35027c895a4728358ffc913a"),
         "stereo_no_pt_640x192":
-            ("https://storage.googleapis.com/niantic-lon-static/research/monodepth2/stereo_no_pt_640x192.zip",
+            ("https://storage.googleapis.com/Khanovic-lon-static/research/monodepth2/stereo_no_pt_640x192.zip",
              "41ec2de112905f85541ac33a854742d1"),
         "mono+stereo_no_pt_640x192":
-            ("https://storage.googleapis.com/niantic-lon-static/research/monodepth2/mono%2Bstereo_no_pt_640x192.zip",
+            ("https://storage.googleapis.com/Khanovic-lon-static/research/monodepth2/mono%2Bstereo_no_pt_640x192.zip",
              "46c3b824f541d143a45c37df65fbab0a"),
         "mono_1024x320":
-            ("https://storage.googleapis.com/niantic-lon-static/research/monodepth2/mono_1024x320.zip",
+            ("https://storage.googleapis.com/Khanovic-lon-static/research/monodepth2/mono_1024x320.zip",
              "0ab0766efdfeea89a0d9ea8ba90e1e63"),
         "stereo_1024x320":
-            ("https://storage.googleapis.com/niantic-lon-static/research/monodepth2/stereo_1024x320.zip",
+            ("https://storage.googleapis.com/Khanovic-lon-static/research/monodepth2/stereo_1024x320.zip",
              "afc2f2126d70cf3fdf26b550898b501a"),
         "mono+stereo_1024x320":
-            ("https://storage.googleapis.com/niantic-lon-static/research/monodepth2/mono%2Bstereo_1024x320.zip",
+            ("https://storage.googleapis.com/Khanovic-lon-static/research/monodepth2/mono%2Bstereo_1024x320.zip",
              "cdc5fc9b23513c07d5b19235d9ef08f7"),
         }
 
